@@ -1,0 +1,18 @@
+2023-05-15 13:41:54.670 +02:00 [INF] Now listening on: https://localhost:7133
+2023-05-15 13:41:54.715 +02:00 [INF] Now listening on: http://localhost:5243
+2023-05-15 13:41:54.722 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-15 13:41:54.725 +02:00 [INF] Hosting environment: Development
+2023-05-15 13:41:54.726 +02:00 [INF] Content root path: C:\Users\User\source\repos\C# tutorials\HotrlListing.API\HotrlListing.API
+2023-05-15 13:41:55.643 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7133/swagger/index.html - -
+2023-05-15 13:41:55.894 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7133/swagger/index.html - - - 200 - text/html;charset=utf-8 252.2018ms
+2023-05-15 13:41:55.912 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7133/_framework/aspnetcore-browser-refresh.js - -
+2023-05-15 13:41:56.689 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7133/_framework/aspnetcore-browser-refresh.js - - - 200 12001 application/javascript;+charset=utf-8 776.3191ms
+2023-05-15 13:41:56.789 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7133/swagger/v1/swagger.json - -
+2023-05-15 13:41:56.919 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7133/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 130.5106ms
+2023-05-15 13:42:25.006 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7133/WeatherForecast - -
+2023-05-15 13:42:25.028 +02:00 [INF] Executing endpoint 'HotrlListing.API.Controllers.WeatherForecastController.Get (HotrlListing.API)'
+2023-05-15 13:42:25.043 +02:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[HotrlListing.API.WeatherForecast] Get() on controller HotrlListing.API.Controllers.WeatherForecastController (HotrlListing.API).
+2023-05-15 13:42:25.057 +02:00 [INF] Executing ObjectResult, writing value of type 'HotrlListing.API.WeatherForecast[]'.
+2023-05-15 13:42:25.074 +02:00 [INF] Executed action HotrlListing.API.Controllers.WeatherForecastController.Get (HotrlListing.API) in 23.2001ms
+2023-05-15 13:42:25.077 +02:00 [INF] Executed endpoint 'HotrlListing.API.Controllers.WeatherForecastController.Get (HotrlListing.API)'
+2023-05-15 13:42:25.078 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7133/WeatherForecast - - - 200 - application/json;+charset=utf-8 71.8172ms
